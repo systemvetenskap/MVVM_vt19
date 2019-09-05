@@ -47,8 +47,8 @@ namespace WpfApp1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             DbOperations db = new DbOperations();
-
-            int id = Convert.ToInt32(personidTextBox.Text);
+            int id;
+            id = Convert.ToInt32(personidTextBox.Text);
 
             try
             {
