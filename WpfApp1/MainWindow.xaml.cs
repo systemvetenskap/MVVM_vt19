@@ -53,7 +53,8 @@ namespace WpfApp1
             try
             {
                 Person p = db.GetPersonById(id);
-                MessageBox.Show(p.ToString());
+                //MessageBox.Show(p.ToString());
+                fnameTextBox.Text = p.firstname;
             }
             catch (PostgresException ex)
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp1
 {
-    class Person
+    public class Person
     {
         public int id { get; set; }
         public string firstname { get; set; }
@@ -14,7 +14,7 @@ namespace WpfApp1
 
         public override string ToString()
         {
-            return id + " " + firstname + "" + lastname;
+            return id + " " + firstname + " " + lastname;
         }
     }
 }
